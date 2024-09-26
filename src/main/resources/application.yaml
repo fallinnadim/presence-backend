@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: presence-app
+  datasource:
+    url: jdbc:postgresql://localhost:5432/presence_app
+    username: developer
+    password: hehe123
+  jpa:
+    hibernate:
+      ddl-auto: none
