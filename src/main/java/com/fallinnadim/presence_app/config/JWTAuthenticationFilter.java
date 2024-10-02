@@ -1,5 +1,7 @@
 package com.fallinnadim.presence_app.config;
 
+import com.fallinnadim.presence_app.service.JWTService;
+import com.fallinnadim.presence_app.service.impl.UserDetailsServiceImpl;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
